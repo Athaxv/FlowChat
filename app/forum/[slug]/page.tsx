@@ -1,10 +1,10 @@
-import React from 'react'
+"use client"
+import ChatForum from '@/components/ChatForum';
 
-const page = () => {
+const page = async ({ params }) => {
+  const slug = (await params).slug;
   return (
-    <div>
-      
-    </div>
+    <ChatForum></ChatForum>
   )
 }
 
