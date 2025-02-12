@@ -1,4 +1,4 @@
-"use client"
+
 import ChatForum from '@/components/ChatForum';
 
 const page = async ({ params }) => {
